@@ -8,6 +8,12 @@ public class Main {
         Student student = null;
         Scanner sc = new Scanner(System.in);
 
+        var lockerRoom = new LockerRoom();
+        lockerRoom.log();
+        System.out.println("================");
+        System.out.println(lockerRoom.requestLocker());
+        System.out.println("================");
+
         System.out.println("Добро пожаловать в бассейн!");
 
         boolean accepted = false;
