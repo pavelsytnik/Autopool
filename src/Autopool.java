@@ -21,7 +21,7 @@ public class Autopool {
 
     public void updateJournal() {
 
-        try (var fileWriter = new FileWriter("students.txt")) {
+        try (var fileWriter = new FileWriter("res/students.txt")) {
             for (var student : students) {
                 fileWriter.write(student.toString() + " " + student.getHours() + "\n");
             }

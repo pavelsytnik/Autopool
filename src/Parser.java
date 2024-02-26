@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Parser {
     public List<Student> readStudentData() {
-        String fileName = "students.txt";
+        String fileName = "res/students.txt";
         String value = null;
         List<Student> list = new ArrayList<>();
 
