@@ -1,3 +1,5 @@
+package autopool;
+
 public class Student {
 
     public final String firstName;
